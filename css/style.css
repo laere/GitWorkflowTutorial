@@ -14,26 +14,25 @@ html {
 /* HEADER */
 /****************************************************************/
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/img/gitbackground.png);
-  background-image: url(/img/gitbackground.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .6))), url("https://cdn-images-1.medium.com/max/2000/1*OY34A4uBsawmGoqpBV3UaA.png");
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("https://cdn-images-1.medium.com/max/2000/1*OY34A4uBsawmGoqpBV3UaA.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
   position: fixed;
   color: #F0EFF4;
-}
 
-/* .hero-banner h1 {
-  margin: 0;
-  text-align: center;
-} */
+}
 
 .hero-text-box {
   text-align: center;
   position: absolute;
-  top: 88%;
-  left: 42.5%;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, 0%);
+  font-weight: 400;
 }
 
 /****************************************************************/
