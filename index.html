@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+  <!-- HEADER AND NAV -->
   <header>
     <nav class="main-nav">
       <ul>
@@ -26,9 +26,8 @@
       <p>Elevate your workflow</p>
     </div>
   </header>
-
+  <!-- MAIN PAGE -->
   <div class="container">
-
     <section class="main-sections">
       <div>
         <h2 class="section-header">About Git</h2>
@@ -42,10 +41,10 @@
         <h2 class="section-header">Introduction</h2>
         <p>The goal of this tutorial is to show the beginning programmer a quick introduction into a effortless Git workflow.</p>
         <p>There are so many Git commands that it can be overwhelming sometimes to learn Git at first, however I am to achieve the understanding of
-        this version control system in a concise and simple manner. I recommend that you go through this tutorial multiple times just so you can get
-        into the habit of this simple workflow.</p>
+          this version control system in a concise and simple manner. I recommend that you go through this tutorial multiple times just so you can get
+          into the habit of this simple workflow.</p>
         <p>There is definately more to Git that you will want to learn, and I encourage you to always be learning. After this tutorial I will be posting other
-        small sections on specific git scenarios that you will be using in a real-life job setting and if you're planning on working on an open-source project.</p>
+          small sections on specific git scenarios that you will be using in a real-life job setting and if you're planning on working on an open-source project.</p>
       </div>
     </section>
     <!-- STEP ONE -->
@@ -53,11 +52,11 @@
       <div>
         <h2 class="section-header">Step 1:</h2>
         <p>The first step into setting up a workflow is to log into your Github account to create a repository. If you need an account
-        head over to <a href="https://github.com/" alt="github website">Github</a> and create an account.</p>
+          head over to <a href="https://github.com/" alt="github website">Github</a> and create an account.</p>
         <p>After you have logged in, or created your account, head into your profile and you will see a UI that looks like this:</p>
         <img src="css/img/git-1.jpg" alt="git tutorial image one" class="tut-img">
         <p>In the top right area you will see a green button that says <em>New</em>. Click that button and it will bring you to a page that allows you
-        to name and create your repository.</p>
+          to name and create your repository.</p>
       </div>
     </section>
     <!-- STEP TWO -->
@@ -75,15 +74,15 @@
       <div>
         <h2 class="section-header">Step 3:</h2>
         <p>The next step is to download Git Bash. Git Bash is going to be the command line program we use for all of our workflow commands. Essentially we will be connecting
-        from Git Bash directly to our remote repo that we just created on Github.</p>
+          from Git Bash directly to our remote repo that we just created on Github.</p>
         <p>You can head over to the <a href="https://git-scm.com/downloads">Git website</a> and download the client for your operating system.</p>
         <p>Now that you have Git downloaded open it up and you will see a command line window such as this:</p>
         <img src="css/img/git-clear.png" alt="git tutorial image three" class="tut-img">
         <p>Now we want to create a folder on your Desktop for your project so we can link it up to our remote repo. After you create your folder use Git to change to
-        change to that folder's directory shown here:</p>
+          change to that folder's directory shown here:</p>
         <img src="css/img/git-3.png" alt="git tutorial image four" class="tut-img">
         <p>We use the command <em>cd</em> (short for change directory) to change to our created folder. If your folder name has spaces, such as mine, then use quotes around
-        it when using the <em>cd</em> command else no quotes are required.
+          it when using the <em>cd</em> command else no quotes are required.
       </div>
     </section>
     <!-- STEP FOUR-->
@@ -104,7 +103,7 @@
           Once you have added your project files/folder you will want to run the command <em>git add -A</em>.</p>
         <img src="css/img/git-5.png" alt="git tutorial image five" class="tut-img">
         <p>This adds all of those files to the staging area where you can then commit those files to your remote repo. Everytime you are working on a project
-        and make any changes to any of your files using this command will adds those changes to the staging area where you can then commit them.</p>
+          and make any changes to any of your files using this command will adds those changes to the staging area where you can then commit them.</p>
       </div>
     </section>
     <!-- STEP SIX-->
@@ -112,43 +111,37 @@
       <div>
         <h2 class="section-header">Step 6:</h2>
         <p>After you add all of your files to the staging area you then want to commit those files to the local repo before we upload the changes to the remote repo.
-        We use the command <em>git commit -m "message"</em> to commit the changes. Make sure your message is clear and concise on what the changes consist of. In this example
-      we're just doing an initial commit of the files/folders of our local repo (local folder).</p>
+          We use the command <em>git commit -m "message"</em> to commit the changes. Make sure your message is clear and concise on what the changes consist of. In this example
+          we're just doing an initial commit of the files/folders of our local repo (local folder).</p>
         <img src="css/img/git-6.png" alt="git tutorial image six" class="tut-img">
         <p>After we commit our changes we then want to add our local repo changes to the remote repo by using the <em>git remote add origin "url"</em> command. This then ties our local
-        repo/folder to the remote repo we created in Steps 1 and 2.</p>
+          repo/folder to the remote repo we created in Steps 1 and 2.</p>
       </div>
     </section>
-
     <!-- FINAL STEP-->
     <section class="main-sections">
       <div>
         <h2 class="section-header">Final Step:</h2>
         <p>The final step is pushing our changes to our repo. The default branch of the repo is the master branch. We use the command <em>git push -u origin master</em>
-        to finalize the push to the remote repo. You can see an example below.</p>
+          to finalize the push to the remote repo. You can see an example below.</p>
         <img src="css/img/git-7.png" alt="git tutorial image seven" class="tut-img">
         <p>After this has been done all of your local repo/folder files have now been uploaded your remote repo on your github account.</p>
       </div>
     </section>
-
-
   </div>
-
+  <!-- FOOTER -->
   <footer>
-      <div class="social-links">
-        <ul>
-          <li><a href="#"><img src="css/img/facebook.webp"></a></li>
-          <li><a href="#"><img src="css/img/instagram.webp"></a></li>
-          <li><a href="#"><img src="css/img/pinterest.webp"></a></li>
-        </ul>
-      </div>
+    <div class="social-links">
+      <ul>
+        <li><a href="#"><img src="css/img/facebook.webp"></a></li>
+        <li><a href="#"><img src="css/img/instagram.webp"></a></li>
+        <li><a href="#"><img src="css/img/pinterest.webp"></a></li>
+      </ul>
+    </div>
     <div class="copyright-text">
-      <p>Copyright &copy; 2018.  Proudly created by Zack.</p>
+      <p>Copyright &copy; 2018. Proudly created by Zack.</p>
     </div>
   </footer>
-
-
-
-</body>
-
+  
+  </body>
 </html>

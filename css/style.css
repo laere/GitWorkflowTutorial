@@ -24,6 +24,10 @@ h2 {
   margin: 0 auto;
 }
 
+em {
+  font-weight: 700;
+}
+
 /****************************************************************/
 /* HEADER */
 /****************************************************************/
@@ -36,7 +40,6 @@ header {
   height: 100vh;
   width: 100%;
   color: #F0EFF4;
-
 }
 
 .hero-text-box {
@@ -45,7 +48,7 @@ header {
   top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
   font-weight: 400;
   width: 100%;
 }
@@ -57,7 +60,6 @@ header {
 /****************************************************************/
 /* NAVIGATION */
 /****************************************************************/
-
 .main-nav {
   background-color: #FF3F00;
   position: fixed;
@@ -72,7 +74,6 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-
 }
 
 .main-nav ul li {
@@ -92,13 +93,12 @@ header {
 
 .main-nav ul li:hover,
 .main-nav ul li:active {
-  background-color:  #ff5922;
+  background-color: #ff5922;
 }
 
 /****************************************************************/
 /* SECTIONS */
 /****************************************************************/
-
 .main-sections {
   margin: 40px 0;
 }
@@ -116,15 +116,13 @@ header {
   background-color: #ccc;
   border-radius: 5px;
   border: 1px solid #eee;
-  -webkit-box-shadow:;
-          box-shadow: 1px 1px 1px #eee;
+  -webkit-box-shadow: ;
+  box-shadow: 1px 1px 1px #eee;
 }
-
 
 /****************************************************************/
 /* FOOTER */
 /****************************************************************/
-
 footer {
   background-color: #2F2E2E;
   color: #fff;
@@ -140,7 +138,6 @@ footer a {
   text-decoration: none;
   margin: 10px;
 }
-
 
 .copyright-text {
   margin-top: 20px;
