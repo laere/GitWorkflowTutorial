@@ -45,6 +45,10 @@ header {
   width: 100%;
 }
 
+.hero-text-box h1 {
+  font-weight: 300;
+}
+
 /****************************************************************/
 /* NAVIGATION */
 /****************************************************************/
@@ -68,15 +72,22 @@ header {
 
 .main-nav ul li {
   list-style: none;
-  display: inline-block;
-  font-size: 85%;
-  margin: 10px 20px;
-  padding: 8px 20px;
+  font-size: 75%;
+  padding: 20px;
+  margin: 0 10px;
 }
 
-.main-nav ul li a {
+.main-nav ul li a:link,
+.main-nav ul li a:visited {
   text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.main-nav ul li:hover,
+.main-nav ul li:active {
+  background-color:  #ff5922;
 }
 
 /****************************************************************/
