@@ -12,18 +12,16 @@ html {
 
 p {
   font-size: 70%;
-  line-height: 1.25;
 }
 
 /* body {
   background-color: #FFFFFC;
 }*/
 
-/* .container {
-  width: 90%;
+.container {
+  width: 80%;
   margin: 0 auto;
-  background-color: #fff;
-}*/
+}
 
 /****************************************************************/
 /* HEADER */
@@ -48,6 +46,7 @@ header {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, 0%);
   font-weight: 400;
+  width: 100%;
 }
 
 /****************************************************************/
@@ -84,6 +83,15 @@ header {
 /****************************************************************/
 /* SECTIONS */
 /****************************************************************/
+
+.main-sections {
+  margin: 40px 0;
+}
+
+.main-sections p {
+  line-height: 1.25;
+  margin: 15px 0;
+}
 
 .tut-img {
   max-width: 100%;
