@@ -10,6 +10,12 @@ html {
   font-size: 25px;
 }
 
+p {
+  font-size: 80%;
+  margin: 10px;
+  line-height: 1.25;
+}
+
 /****************************************************************/
 /* HEADER */
 /****************************************************************/
@@ -18,9 +24,9 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("https://cdn-images-1.medium.com/max/2000/1*OY34A4uBsawmGoqpBV3UaA.png");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
-  position: fixed;
   color: #F0EFF4;
 
 }
