@@ -12,7 +12,6 @@ html {
 
 p {
   font-size: 80%;
-  margin: 10px;
   line-height: 1.25;
 }
 
@@ -20,8 +19,8 @@ p {
 /* HEADER */
 /****************************************************************/
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .6))), url("https://cdn-images-1.medium.com/max/2000/1*OY34A4uBsawmGoqpBV3UaA.png");
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("https://cdn-images-1.medium.com/max/2000/1*OY34A4uBsawmGoqpBV3UaA.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .6))), url(img/gitbackground.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(img/gitbackground.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
