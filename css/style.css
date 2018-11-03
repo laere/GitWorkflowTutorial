@@ -153,3 +153,30 @@ footer a {
 .copyright-text {
   text-align: center;
 }
+
+/****************************************************************/
+/* LIGHTBOX */
+/****************************************************************/
+
+.background {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lightbox {
+  width: 100%;
+}
+
+/****************************************************************/
+/* MEDIA QUERIES */
+/****************************************************************/
